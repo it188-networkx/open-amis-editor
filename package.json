@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "amis dev",
     "build": "amis build",
-    "format": "prettier --write \"src/**/**/*.{js,jsx,ts,tsx,vue,scss,json}\""
+    "format": "prettier --write \"src/**/**/*.{js,jsx,ts,tsx,vue,scss,json}\"",
+    "test:ci": "node --test test/*.test.cjs"
   },
   "repository": {
     "type": "git",
